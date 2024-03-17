@@ -14,7 +14,7 @@
                 .then((response) => response.json())
         }
         async function displayMovie(movie) {
-            const api_key = '7b4f347934d0f0c050b212913c446b06'
+            const api_key = ''
             const data = await fetchMovie(movie, api_key)
             document.querySelector('#movie').innerHTML = `
             <h1> ${data.title} </h1>
